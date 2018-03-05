@@ -67,8 +67,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.blanc \
     init.recovery.blanc \
-    init.blanc \
-    ueventd.blanc
+    init.blanc
 
 # Lights
 PRODUCT_PACKAGES += \
