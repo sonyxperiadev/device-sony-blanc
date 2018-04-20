@@ -50,6 +50,10 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/vendor/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Headset_cal.acdb \
     $(DEVICE_PATH)/vendor/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Speaker_cal.acdb
 
+# Touch IDC
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/vendor/usr/idc/TouchDetector.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/TouchDetector.idc
+
 # NFC Configuration
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/vendor/etc/libnfc-brcm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-brcm.conf \
