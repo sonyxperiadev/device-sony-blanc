@@ -73,6 +73,10 @@ PRODUCT_PACKAGES += \
     init.recovery.blanc \
     init.blanc
 
+# Projection
+PRODUCT_PACKAGES += \
+    initlight
+
 # Lights
 PRODUCT_PACKAGES += \
     lights.blanc
