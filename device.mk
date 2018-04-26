@@ -75,7 +75,9 @@ PRODUCT_PACKAGES += \
 
 # Projection
 PRODUCT_PACKAGES += \
-    initlight
+    initlight \
+    ucommsvr \
+    libucommunicator
 
 # Lights
 PRODUCT_PACKAGES += \
