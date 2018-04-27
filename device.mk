@@ -79,10 +79,6 @@ PRODUCT_PACKAGES += \
     ucommsvr \
     libucommunicator
 
-# Lights
-PRODUCT_PACKAGES += \
-    lights.blanc
-
 # Simple PowerHAL
 PRODUCT_PACKAGES += \
     power.blanc
