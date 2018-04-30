@@ -1898,6 +1898,7 @@
         <ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia1" value="1" />
         <ctl name="COMP3 Switch" value="1" />
         <ctl name="COMP4 Switch" value="1" />
+        <path name="play-hdmi-scaler-audio" />
     </path>
 
     <path name="speaker">
