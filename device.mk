@@ -75,6 +75,7 @@ PRODUCT_PACKAGES += \
 
 # Projection
 PRODUCT_PACKAGES += \
+    ProjectorSettings \
     initlight \
     ucommsvr \
     libucommunicator
