@@ -71,7 +71,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.blanc \
     init.recovery.blanc \
-    init.blanc
+    init.blanc \
+    init_touchbuttons
 
 # Projection
 PRODUCT_PACKAGES += \

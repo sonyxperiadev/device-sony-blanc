@@ -1,0 +1,12 @@
+on init
+    # Let there be light!
+    write /sys/class/leds/as3668:volume_down/brightness 3
+    write /sys/class/leds/as3668:volume_up/brightness 3
+
+on boot
+    # Prepare the ADUX1050 capacitive sensor
+    write /sys/devices/soc/78b8000.i2c/i2c-4/4-002c/adux1050_sw_reset 1
+
+on property:sys.boot_completed=1
+    # Enable the touch buttons events
+    write /sys/devices/soc/78b8000.i2c/i2c-4/4-002c/adux1050_enable 1
