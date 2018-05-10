@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tof_focus_calibration>
+    <tof_focus>
+        <focus millimeters="2   24   47   75  102  127  152  179  230  255  305"
+               focus_step="25 -101 -171 -223 -261 -311 -328 -345 -358 -370 -383"/>
+    </tof_focus>
+</tof_focus_calibration>
