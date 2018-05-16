@@ -14,7 +14,12 @@
 
 include device/sony/loire/PlatformConfig.mk
 
-TARGET_BOOTLOADER_BOARD_NAME := loire
+TARGET_BOOTLOADER_BOARD_NAME := unknown
+ifneq (,$(filter %g1109,$(TARGET_PRODUCT)))
+TARGET_BOOTLOADER_BOARD_NAME := G1109
+else
+$(error Unrecognized value for TARGET_PRODUCT: "$(TARGET_PRODUCT)")
+endif
 
 # Platform
 PRODUCT_PLATFORM := loire
