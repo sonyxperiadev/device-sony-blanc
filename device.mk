@@ -87,10 +87,6 @@ PRODUCT_PACKAGES += \
     ucommsvr \
     libucommunicator
 
-# Simple PowerHAL
-PRODUCT_PACKAGES += \
-    power.blanc
-
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREBUILT_DPI := xhdpi hdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
