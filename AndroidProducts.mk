@@ -14,3 +14,7 @@
 
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_g1109.mk
 
+COMMON_LUNCH_CHOICES += \
+    aosp_g1109-eng \
+    aosp_g1109-userdebug
+
